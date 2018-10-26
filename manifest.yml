@@ -1,0 +1,6 @@
+applications:
+  -name: sse-back
+  buildpack: java_buildpack
+  path: target\alienprojectsse-0.0.1-SNAPSHOT.jar
+  services:
+  -ssedb
